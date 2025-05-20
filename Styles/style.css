@@ -1,0 +1,88 @@
+@charset "UTF-8";
+
+body {
+    background-color: black;
+}
+
+
+h1,h2 {
+    color: transparent;
+    background: linear-gradient(to bottom, #30a5e9, #0f138a);
+    font-family: "Passion one", sans-serif;
+    text-align: center;
+    font-size: 32px;
+    line-height: 1.5;
+    text-transform: uppercase;
+    -webkit-background-clip: text;
+}
+
+p {
+    color: rgb(191, 191, 191);
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+h1 {
+    font-size: 56px;
+    font-weight: 700;
+    font-style: normal;
+}
+h2 {
+    font-size: 40px;
+    font-weight: 400;
+    font-style: normal;
+}
+
+div.logo {
+    background-color: rgba(0, 0, 0, .2);
+    margin: 0 auto;
+    text-align: center;
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+}
+  
+header {
+    background-image: linear-gradient(rgba(0, 0, 0, .6), rgba(49, 168, 221, .2), rgba(0, 0, 0, .6)), url('../assets/images/banner.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100vw;
+    padding-top: 60px;
+    border-bottom: 1px solid #33A8DB80;
+}
+.banner-content {
+    text-align: center;
+    padding: 0 20px;
+    margin: 0 auto;
+    max-width: 800px;
+}
+.banner-content > p {
+    text-transform: wrap;
+    padding: 0 65px; 
+}
+.banner-content > button {
+    margin: 20px 0px 40px 0px ;
+    background-color: transparent;
+    color: #2189c6;
+    height: 60px;
+    width: 260px;
+    text-align: center;
+    font-size: 24px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    cursor: pointer;
+
+    border-image: linear-gradient(to bottom, #3a9cd5 0%, #3a4ed5 100%) 1;
+    border-width: 3px;
+    border-style: solid;
+    padding: 5px;
+}
+
+.banner-content > button:hover {
+    background-color: #ffffff4f;
+    text-shadow: #3a4ed5 0px 0px 10px;
+    transition: all 0.3s ease-in-out;
+}
+
